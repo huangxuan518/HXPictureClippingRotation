@@ -10,9 +10,12 @@
 		9C81786B1D17ECE4000333AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C81786A1D17ECE4000333AF /* main.m */; };
 		9C81786E1D17ECE4000333AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C81786D1D17ECE4000333AF /* AppDelegate.m */; };
 		9C8178711D17ECE4000333AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8178701D17ECE4000333AF /* ViewController.m */; };
-		9C8178741D17ECE4000333AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8178721D17ECE4000333AF /* Main.storyboard */; };
 		9C8178761D17ECE4000333AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8178751D17ECE4000333AF /* Assets.xcassets */; };
-		9C8178791D17ECE4000333AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8178771D17ECE4000333AF /* LaunchScreen.storyboard */; };
+		9CB5221C1D20B2120047DD2B /* UIImage-Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB522171D20B2120047DD2B /* UIImage-Extension.m */; };
+		9CB5221D1D20B2120047DD2B /* HXImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB522191D20B2120047DD2B /* HXImageCropper.m */; };
+		9CB5221E1D20B2120047DD2B /* HXCutPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5221B1D20B2120047DD2B /* HXCutPictureViewController.m */; };
+		9CB522231D20BB290047DD2B /* 927_v36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CB522221D20BB290047DD2B /* 927_v36.jpg */; };
+		9CB522251D20CF8C0047DD2B /* shili.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CB522241D20CF8C0047DD2B /* shili.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +25,16 @@
 		9C81786D1D17ECE4000333AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9C81786F1D17ECE4000333AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9C8178701D17ECE4000333AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9C8178731D17ECE4000333AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8178751D17ECE4000333AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C8178781D17ECE4000333AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C81787A1D17ECE4000333AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB522161D20B2120047DD2B /* UIImage-Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extension.h"; sourceTree = "<group>"; };
+		9CB522171D20B2120047DD2B /* UIImage-Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extension.m"; sourceTree = "<group>"; };
+		9CB522181D20B2120047DD2B /* HXImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXImageCropper.h; sourceTree = "<group>"; };
+		9CB522191D20B2120047DD2B /* HXImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXImageCropper.m; sourceTree = "<group>"; };
+		9CB5221A1D20B2120047DD2B /* HXCutPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCutPictureViewController.h; sourceTree = "<group>"; };
+		9CB5221B1D20B2120047DD2B /* HXCutPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCutPictureViewController.m; sourceTree = "<group>"; };
+		9CB522221D20BB290047DD2B /* 927_v36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 927_v36.jpg; sourceTree = "<group>"; };
+		9CB522241D20CF8C0047DD2B /* shili.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shili.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +67,14 @@
 		9C8178681D17ECE4000333AF /* HXPictureClippingRotation */ = {
 			isa = PBXGroup;
 			children = (
+				9CB522241D20CF8C0047DD2B /* shili.gif */,
+				9CB522141D20B2120047DD2B /* Crop */,
 				9C81786C1D17ECE4000333AF /* AppDelegate.h */,
 				9C81786D1D17ECE4000333AF /* AppDelegate.m */,
 				9C81786F1D17ECE4000333AF /* ViewController.h */,
 				9C8178701D17ECE4000333AF /* ViewController.m */,
-				9C8178721D17ECE4000333AF /* Main.storyboard */,
+				9CB522221D20BB290047DD2B /* 927_v36.jpg */,
 				9C8178751D17ECE4000333AF /* Assets.xcassets */,
-				9C8178771D17ECE4000333AF /* LaunchScreen.storyboard */,
 				9C81787A1D17ECE4000333AF /* Info.plist */,
 				9C8178691D17ECE4000333AF /* Supporting Files */,
 			);
@@ -77,6 +87,27 @@
 				9C81786A1D17ECE4000333AF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CB522141D20B2120047DD2B /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				9CB522151D20B2120047DD2B /* Cut */,
+				9CB5221A1D20B2120047DD2B /* HXCutPictureViewController.h */,
+				9CB5221B1D20B2120047DD2B /* HXCutPictureViewController.m */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		9CB522151D20B2120047DD2B /* Cut */ = {
+			isa = PBXGroup;
+			children = (
+				9CB522161D20B2120047DD2B /* UIImage-Extension.h */,
+				9CB522171D20B2120047DD2B /* UIImage-Extension.m */,
+				9CB522181D20B2120047DD2B /* HXImageCropper.h */,
+				9CB522191D20B2120047DD2B /* HXImageCropper.m */,
+			);
+			path = Cut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8178791D17ECE4000333AF /* LaunchScreen.storyboard in Resources */,
 				9C8178761D17ECE4000333AF /* Assets.xcassets in Resources */,
-				9C8178741D17ECE4000333AF /* Main.storyboard in Resources */,
+				9CB522251D20CF8C0047DD2B /* shili.gif in Resources */,
+				9CB522231D20BB290047DD2B /* 927_v36.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,31 +181,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8178711D17ECE4000333AF /* ViewController.m in Sources */,
+				9CB5221D1D20B2120047DD2B /* HXImageCropper.m in Sources */,
+				9CB5221C1D20B2120047DD2B /* UIImage-Extension.m in Sources */,
+				9CB5221E1D20B2120047DD2B /* HXCutPictureViewController.m in Sources */,
 				9C81786E1D17ECE4000333AF /* AppDelegate.m in Sources */,
 				9C81786B1D17ECE4000333AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9C8178721D17ECE4000333AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C8178731D17ECE4000333AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9C8178771D17ECE4000333AF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C8178781D17ECE4000333AF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C81787B1D17ECE4000333AF /* Debug */ = {
@@ -261,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HXPictureClippingRotation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXPictureClippingRotation;
@@ -272,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HXPictureClippingRotation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXPictureClippingRotation;
@@ -298,6 +315,7 @@
 				9C81787F1D17ECE4000333AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
